@@ -1,0 +1,36 @@
+.blank{
+	
+}
+
+.red{
+	background-color: red;
+	color:white;
+}
+
+.blue{
+	background-color: blue;
+	color:white;
+
+}
+
+.size{
+	font-size: 30px;
+	font-weight: 10px;
+}
+
+.newfont{
+	font-family:georgia;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.spin{
+	-webkit-animation:spin 5s infinite;
+}
+
+@keyframes spin{
+	from{ transform:rotate(0deg);}
+	to{ transform: rotate(360deg);}
+}
